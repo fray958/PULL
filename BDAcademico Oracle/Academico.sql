@@ -1,6 +1,7 @@
 --Base De Datos Academico
 --Autor: Hugo Espetia
 --Fecha: Cusco 22 de abril de 2024
+--Fray Salcedo Ramos
 
 create tablespace "TBS_Academico"
 datafile 'C:\Temp\DF_Academico.BDF'
