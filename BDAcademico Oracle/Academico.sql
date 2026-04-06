@@ -59,15 +59,7 @@ create table TDocente
 
 
 --Tabla Carga
-create table TCarga
-(
-   IdCarga int primary key,
-   CodDocente char(5),
-   CodAsignatura char(5),
-   Semestre varchar(50),
-   foreign key(CodDocente)references TDocente,
-   foreign key(CodAsignatura)references TAsignatura
-) tablespace "TBS_Academico";
+
 
 
 --Tabla Notas
