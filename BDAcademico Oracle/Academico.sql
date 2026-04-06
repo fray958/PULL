@@ -71,17 +71,6 @@ create table TCarga
 
 
 --Tabla Notas
-create table TNotas
-(
-   CodAlumno char(5),
-   CodAsignatura char(5),
-   Semestre varchar(50),
-   Parcial1 decimal(4,2),
-   Parcial2 decimal(4,2),
-   NotaFinal decimal(4,2),
-   primary key (CodAlumno,CodAsignatura,Semestre),
-   foreign key (CodAlumno)references TAlumno,
-   foreign key (CodAsignatura)references TAsignatura
-)tablespace "TBS_Academico";
+
 
 
